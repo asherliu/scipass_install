@@ -16,3 +16,8 @@ You will need to paste the output into your bashrc and source .bashrc as well
 
 
 "pythonbrew install 2.6.6" or any version
+
+"To switch between different version of python"
+"pythonbrew switch 3.2"
+
+

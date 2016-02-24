@@ -1,0 +1,11 @@
+Unlink and Symlink linux bash (downgrade python 2.7 to python 2.6)
+Python environment in linuxmint 11 (on april 2012) is using python 2.7, but some package is not works in there. So we want to downgrade it to python 2.6
+
+first, install python2.6 :
+sudo apt-get install python2.6
+
+unlink python envi :
+sudo unlink /usr/bin/python
+
+link it to python2.6 :
+sudo ln -s /usr/bin/python2.6 /usr/bin/python
