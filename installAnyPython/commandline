@@ -1,0 +1,18 @@
+How to install and manage different versions of Python in Linux
+
+
+
+
+Dependencies – curl
+Before Installing the Pythonbrew, Install “curl” in the machine, to install curl use the below command in the terminal, give the the password for the user when prompted.
+"sudo apt-get install curl"
+After Installing the curl, Now Install Pythonbrew, copy and paste the following commands in the terminal and type the password for the user when prompted.
+Recomended method of installation – Easy Install
+"sudo easy_install pythonbrew"
+To complete the installation, type the following command
+"pythonbrew_install"
+
+You will need to paste the output into your bashrc and source .bashrc as well
+
+
+"pythonbrew install 2.6.6" or any version
