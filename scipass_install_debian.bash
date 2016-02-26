@@ -16,3 +16,4 @@ pip install ryu
 
 apt-get install alien
 echo "convert rpm to alien"
+echo "install a *.deb package: dpkg -i *deb"
