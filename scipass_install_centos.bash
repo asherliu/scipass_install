@@ -16,4 +16,6 @@ yum install perl-GRNOC-WebService-Client-1.3.2-1.el6.noarch.rpm
 yum install python-netaddr-0.7.14-1.el6.noarch.rpm
 
 yum install SciPass-1.0.4-1.x86_64.rpm
+yum install python-pbr.noarch
 
+cd ../
